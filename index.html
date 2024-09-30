@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>alura</title>
+</head>
+<body>
+    <main>
+       
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>voce esta em um matagau e tem que escolher as melhores armas para sobreviver. Qual voce escolhe uma pa ou uma 12?</p>
+            <button class="btn-proximo" data-proximo="1">12</button>
+            <button class="btn-proximo" data-proximo="10">pa</button>
+        </div>
+    
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.png" alt="">
+            <p>boa, agora que voce tem uma arma moderna nenhum animal vai ser pario pra voce, voce avista um urso, voce atira nele?</p>
+            <button class="btn-proximo" data-proximo="11">não</button>
+            <button class="btn-proximo" data-proximo="2">talvez</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="">
+            <p>boa, agora voce tem comida suficiente para passar varis noites na mata mas ainda precisa de agua, andando um pouco voce encontra um rio onde a agua esta muito suja, voce toma a agua mesmo assim ou nvoce filtra ela passando por um tecido como uma blusa?</p>
+            <button class="btn-proximo" data-proximo="3">filtra</button>
+            <button class="btn-proximo" data-proximo="9">bebo no seco mesmo</button>
+        </div>
+    
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.png" alt="">
+            <p>agora que voce esta bem alimentado voce tem que sair dai voce segue o barulho as trilhas e p,acas te orientando a sair ou voce segue seu instinto</p>
+                <button class="btn-proximo" data-proximo="4">seguindos as placas e trilhas</button>
+                <button class="btn-proximo" data-proximo="9">instinto</button>
+           
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png" alt="">
+            <p>PARABENS!!!!!!!!! VOCE CONSEGUIU SOBREVIVER UMA NOITE NA MATA SEM MORRER E BEM ALIMENTADO</p>
+            <button class="btn-proximo" data-proximo="0">inicio</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.png" alt="">
+            <p>MORREU</p>
+            <button class="btn-proximo" data-proximo="0">inicio</button>
+           </div>
+
+           <div class="passo" id="passo-10">
+            <img src="cenario-passo10.png" alt="">
+            <p>o que voce vai fazer com uma pa amigão?</p>
+            <button class="btn-proximo" data-proximo="0">inicio</button>
+           </div>
+        
+           <div class="passo" id="passo-11">
+            <img src="cenario-passo9.png" alt="">
+            <p>MORREU DE FOME BURRO</p>
+            <button class="btn-proximo" data-proximo="0">inicio</button>
+           </div>
+    </main>
+ 
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
